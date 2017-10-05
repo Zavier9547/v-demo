@@ -1,6 +1,3 @@
 <resources>
     <string name="app_name">VDemo</string>
-    <string name="card_interval">11dp</string>
-    <string name="padding_small">10dp</string>
-    <string name="padding_normal">20dp</string>
 </resources>
