@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:id="@+id/title_bar_left"
+
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/padding_normal"
+
+        android:background="@drawable/ic_back"/>
+
+    <TextView
+        android:id="@+id/title_bar_title"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/title_bar_left"
+        android:layout_marginLeft="@dimen/padding_normal"
+        android:layout_centerVertical="true"
+        android:maxLines="1"
+
+        android:textSize="@dimen/text_normal"
+        android:textColor="#000"/>
+
+    <Button
+        android:id="@+id/title_bar_right"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/padding_normal"
+
+        android:background="@null"
+        android:textSize="@dimen/text_small"
+        android:textColor="@color/linkBlue"/>
+
+</merge>
