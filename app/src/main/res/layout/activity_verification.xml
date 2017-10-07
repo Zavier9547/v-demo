@@ -52,18 +52,18 @@
 
         <Button
             android:id="@+id/button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
 
-            android:layout_marginTop="@dimen/spacing_small"
-            android:layout_marginBottom="@dimen/spacing_small"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+
+            android:layout_centerVertical="true"
 
             android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true"
 
+            android:background="@color/buttonDefault"
             android:text="发送短信"
-            android:textSize="@dimen/text_small"/>
+            android:textSize="@dimen/text_small"
+            android:textColor="#000"/>
 
         <EditText
             android:id="@+id/editText"
@@ -98,8 +98,11 @@
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
+
+            android:background="@color/buttonDefault"
             android:text="确认"
-            android:textSize="@dimen/text_normal"/>
+            android:textSize="@dimen/text_normal"
+            android:textColor="#000"/>
 
     </RelativeLayout>
 
