@@ -24,6 +24,8 @@ public class CustomTitleBar extends RelativeLayout {
     private Boolean right_btn_visible;
     private String right_btn_text;
 
+
+
     public CustomTitleBar(Context context, AttributeSet attrs){
         super(context, attrs);
         initTypedArray(context, attrs);

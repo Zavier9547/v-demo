@@ -4,6 +4,7 @@
     <color name="colorPrimaryDark">#fff</color>
     <color name="colorAccent">#FF4081</color>
     <color name="windowBackground">#F5F5F5</color>
-    <color name="linkBlue">#2A82FA</color>
-    <color name="buttonDefault">#CCC</color>
+    <color name="linkBlue">#5DB4F8</color>
+    <color name="greyDefault">#CCC</color>
+    <color name="greyLight">#D8D8D8</color>
 </resources>

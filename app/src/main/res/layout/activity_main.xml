@@ -1,9 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.vdemo.MainActivity">
 
-</android.support.constraint.ConstraintLayout>
+    <RelativeLayout
+        android:id="@+id/R_layout1"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+
+            android:text="V贷"
+            android:textSize="@dimen/text_normal"/>
+
+    </RelativeLayout>
+
+
+    <com.example.vdemo.views.Jumbotron
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/R_layout1"
+        android:layout_marginTop="@dimen/spacing_normal"
+
+        android:background="@color/linkBlue"
+        app:text_above="可用额度（元）"
+        app:text_below="日利率：0.03%"
+        app:text_middle="3000">
+
+    </com.example.vdemo.views.Jumbotron>
+
+</RelativeLayout>

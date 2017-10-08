@@ -6,4 +6,10 @@
         <attr name="title_text" format="string"/>
         <attr name="right_text" format="string"/>
     </declare-styleable>
+
+    <declare-styleable name="Jumbotron" >
+        <attr name="text_above" format="string" />
+        <attr name="text_middle" format="string"/>
+        <attr name="text_below" format="string"/>
+    </declare-styleable>
 </resources>

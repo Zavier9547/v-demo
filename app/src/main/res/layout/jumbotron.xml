@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:id="@+id/textAbove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/textMiddle"
+
+        android:textColor="#fff"
+        android:textSize="@dimen/text_normal"/>
+
+    <TextView
+        android:id="@+id/textMiddle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+
+        android:textColor="#fff"
+        android:textSize="@dimen/text_big"/>
+
+    <TextView
+        android:id="@+id/textBelow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textMiddle"
+
+        android:textColor="#fff"
+        android:textSize="@dimen/text_normal"/>
+
+</merge>
